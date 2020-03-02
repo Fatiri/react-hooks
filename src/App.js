@@ -6,6 +6,7 @@ import UseEffectComponent from './component/UseEffectComponent'
 import UseEffectConditionalComponent from './component/UseEffectConditionalComponent'
 import UseEffectRunOnceComponent from './component/UseEffectRunOnceComponent'
 import UseEffectCleanUpComponent from './component/UseEffectCleanUpComponent'
+import FetchingWithUseEffectComponent from './component/FetchingWithUseEffectComponent'
 
 function App() {
   return (
@@ -29,6 +30,8 @@ function App() {
            {/* <UseEffectRunOnceComponent/> */}
            <h1>---------------------------</h1>
            <UseEffectCleanUpComponent/>
+           <h1>---------------------------</h1>
+           <FetchingWithUseEffectComponent/>
            <h1>---------------------------</h1>
 
     </div>

@@ -4,6 +4,7 @@ import UseStateObjectComponent from './component/UseStateObjectComponent'
 import UseStateArrayComponent from './component/UseStateArrayComponent'
 import UseEffectComponent from './component/UseEffectComponent'
 import UseEffectConditionalComponent from './component/UseEffectConditionalComponent'
+import UseEffectRunOnceComponent from './component/UseEffectRunOnceComponent'
 
 function App() {
   return (
@@ -24,6 +25,9 @@ function App() {
            useEffect With Conditional
            <UseEffectConditionalComponent/>
            <h1>---------------------------</h1>
+           <UseEffectRunOnceComponent/>
+           <h1>---------------------------</h1>
+
     </div>
   )
 }

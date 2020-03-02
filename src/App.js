@@ -5,6 +5,7 @@ import UseStateArrayComponent from './component/UseStateArrayComponent'
 import UseEffectComponent from './component/UseEffectComponent'
 import UseEffectConditionalComponent from './component/UseEffectConditionalComponent'
 import UseEffectRunOnceComponent from './component/UseEffectRunOnceComponent'
+import UseEffectCleanUpComponent from './component/UseEffectCleanUpComponent'
 
 function App() {
   return (
@@ -25,7 +26,9 @@ function App() {
            useEffect With Conditional
            <UseEffectConditionalComponent/>
            <h1>---------------------------</h1>
-           <UseEffectRunOnceComponent/>
+           {/* <UseEffectRunOnceComponent/> */}
+           <h1>---------------------------</h1>
+           <UseEffectCleanUpComponent/>
            <h1>---------------------------</h1>
 
     </div>

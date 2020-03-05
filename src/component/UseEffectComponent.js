@@ -13,6 +13,6 @@ function UseEffectComponent() {
             {count}
         </div>
     )
-}
+}   
 
 export default UseEffectComponent

@@ -18,7 +18,6 @@ function MouseEvent() {
            console.log("remove mouse event");
            window.removeEventListener('mousemove', logMouse);
         }
-        
     },[])
 
     return (
